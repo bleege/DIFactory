@@ -27,9 +27,7 @@ struct ContentView<Model: ContentViewModel>: View {
 
 
 #Preview {
-    class ContentViewModelPreview: ContentViewModel {
-        var contentTitle: String = "Preview Content"
-    }
-
-    return ContentView(viewModel: ContentViewModelPreview())
+    ContentView(
+        viewModel: DefaultContentViewModel()
+    )
 }

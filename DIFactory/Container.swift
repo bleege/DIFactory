@@ -14,6 +14,9 @@ extension Container {
         self {
             DefaultDIFactoryDataRepository()
         }
+        .onPreview {
+            PreviewDIFactoryDataRepository()
+        }
     }
     
 }

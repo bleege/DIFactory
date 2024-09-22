@@ -16,3 +16,9 @@ class DefaultDIFactoryDataRepository: DIFactoryDataRepository {
         "DefaultDIFactoryDataRepository"
     }
 }
+
+class PreviewDIFactoryDataRepository: DIFactoryDataRepository {
+    func getContentString() -> String {
+        "PreviewDIFactoryDataRepository"
+    }
+}
