@@ -17,6 +17,8 @@ class DefaultDIFactoryDataRepository: DIFactoryDataRepository {
     }
 }
 
+#if DEBUG
+
 class PreviewDIFactoryDataRepository: DIFactoryDataRepository {
     func getContentString() -> String {
         "PreviewDIFactoryDataRepository"
@@ -28,3 +30,5 @@ class TestDIFactoryDataRepository: DIFactoryDataRepository {
         "TestDIFactoryDataRepository"
     }
 }
+
+#endif
