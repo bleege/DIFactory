@@ -44,11 +44,6 @@
 			path = DIFactoryTests;
 			sourceTree = "<group>";
 		};
-		A249E4FF2CA0999A00E35ACE /* DIFactoryUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = DIFactoryUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +77,6 @@
 			children = (
 				A249E4E42CA0999800E35ACE /* DIFactory */,
 				A249E4F52CA0999A00E35ACE /* DIFactoryTests */,
-				A249E4FF2CA0999A00E35ACE /* DIFactoryUITests */,
 				A249E4E32CA0999800E35ACE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -158,9 +152,6 @@
 			);
 			dependencies = (
 				A249E4FE2CA0999A00E35ACE /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				A249E4FF2CA0999A00E35ACE /* DIFactoryUITests */,
 			);
 			name = DIFactoryUITests;
 			packageProductDependencies = (
