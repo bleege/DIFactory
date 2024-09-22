@@ -22,3 +22,9 @@ class PreviewDIFactoryDataRepository: DIFactoryDataRepository {
         "PreviewDIFactoryDataRepository"
     }
 }
+
+class TestDIFactoryDataRepository: DIFactoryDataRepository {
+    func getContentString() -> String {
+        "TestDIFactoryDataRepository"
+    }
+}

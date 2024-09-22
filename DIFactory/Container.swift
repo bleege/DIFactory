@@ -17,6 +17,9 @@ extension Container {
         .onPreview {
             PreviewDIFactoryDataRepository()
         }
+        .onTest {
+            TestDIFactoryDataRepository()
+        }
     }
     
 }
