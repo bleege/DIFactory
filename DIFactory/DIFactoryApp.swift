@@ -11,7 +11,9 @@ import SwiftUI
 struct DIFactoryApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(
+                viewModel: DefaultContentViewModel()
+            )
         }
     }
 }
