@@ -8,7 +8,7 @@
 import SwiftUI
 
 protocol ContentViewModel: ObservableObject {
-    
+    var contentTitle: String { get }
 }
 
 struct ContentView<Model: ContentViewModel>: View {
@@ -19,7 +19,7 @@ struct ContentView<Model: ContentViewModel>: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text(viewModel.contentTitle)
         }
         .padding()
     }
@@ -28,7 +28,7 @@ struct ContentView<Model: ContentViewModel>: View {
 
 #Preview {
     class ContentViewModelPreview: ContentViewModel {
-        
+        var contentTitle: String = "Preview Content"
     }
 
     return ContentView(viewModel: ContentViewModelPreview())

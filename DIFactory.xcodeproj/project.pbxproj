@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A249E5132CA0A13A00E35ACE /* Factory in Frameworks */ = {isa = PBXBuildFile; productRef = A249E5122CA0A13A00E35ACE /* Factory */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A249E4F32CA0999A00E35ACE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -52,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A249E5132CA0A13A00E35ACE /* Factory in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +117,7 @@
 			);
 			name = DIFactory;
 			packageProductDependencies = (
+				A249E5122CA0A13A00E35ACE /* Factory */,
 			);
 			productName = DIFactory;
 			productReference = A249E4E22CA0999800E35ACE /* DIFactory.app */;
@@ -195,6 +201,9 @@
 			);
 			mainGroup = A249E4D92CA0999800E35ACE;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A249E5112CA0A13A00E35ACE /* XCRemoteSwiftPackageReference "Factory" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = A249E4E32CA0999800E35ACE /* Products */;
 			projectDirPath = "";
@@ -558,6 +567,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A249E5112CA0A13A00E35ACE /* XCRemoteSwiftPackageReference "Factory" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hmlongco/Factory.git";
+			requirement = {
+				kind = exactVersion;
+				version = 2.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A249E5122CA0A13A00E35ACE /* Factory */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A249E5112CA0A13A00E35ACE /* XCRemoteSwiftPackageReference "Factory" */;
+			productName = Factory;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A249E4DA2CA0999800E35ACE /* Project object */;
 }
